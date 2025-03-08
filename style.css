@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+.Animalcards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card, .img, .informations{
+    border: 2px solid #ccc;       
+}
+.card{
+    background-color: #fff;
+    width: 340px;
+    padding: 16px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    margin: 16px;
+    text-align: center;
+}
+
+.img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.informations{
+    text-align: left;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.dif{
+    font-style: italic;
+}
+
+.scientInf{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
